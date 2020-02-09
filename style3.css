@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    background-color: rgba(4, 26, 3, 0.836);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+nav { 
+    background-color: rgb(167, 179, 144);
+    display: flex;   
+    text-align: center;
+    justify-content: space-between;    
+    align-items: center; 
+    padding: 10px;  
+}
+
+.nav-menu > ul > li {
+    display: block;
+    margin: 0 10px;
+    padding: 5px;
+    border-right: 1px dotted red;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+article {
+    padding: 0 10px;
+}
+
+#foto{
+    width: 100%;
+    display: flex;
+}
+
+#foto > img {
+    flex-direction: column;
+    width: 50%;
+}
+
+#kontakt {
+
+    text-align: center;
+}
+
+#kontakt article {
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(4, 26, 3, 0.836);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
